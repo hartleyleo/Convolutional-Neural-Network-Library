@@ -3,6 +3,6 @@ Authored by [Leon Hartley](https://github.com/hartleyleo) & [Zachary Lerner](htt
 
 This is a Neural Network Library created using the [Deep-Feed-Forward (DFF) Model](https://en.wikipedia.org/wiki/Feedforward_neural_network).
 
-## 📦 Usage
+## 📖 Usage
 
 ## 📈 Benchmarks & Tests
