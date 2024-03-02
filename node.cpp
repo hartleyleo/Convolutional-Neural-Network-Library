@@ -13,7 +13,9 @@ Node::~Node() {
 // Calculates the weighted sum of all input nodes
 double Node::computeWeightedSum(const std::vector<double>& inputs) {
     double weighted_sum = 0.0;
-
+    for(int i = 0; i < inputs.size(); i++) {
+        weighted_sum += inputs[i] * weights[i];
+    }
     // Compute the weighted sum by multiplying inputs with corresponding weights and summing them
 
     return weighted_sum;
@@ -22,6 +24,9 @@ double Node::computeWeightedSum(const std::vector<double>& inputs) {
 // Compute the activation amount from the weighted sum (using sigmoid i think)
 double Node::applyActivationFunction(double weighted_sum) {
     double activation_function_result = 0.0;
+
+    //using sigmoid compute the activation amount
+    activation_function_result = 1 / (1 + std::exp(-weighted_sum));
 
     return activation_function_result;
 }
