@@ -1,7 +1,7 @@
-# Deep Feed Forward Neural Network Library
+# Convolutional Neural Network Library
 Authored by [Leon Hartley](https://github.com/hartleyleo) & [Zachary Lerner](https://github.com/Zacharylerner)
 
-This is a Neural Network Library created using the [Deep-Feed-Forward (DFF) Model](https://en.wikipedia.org/wiki/Feedforward_neural_network).
+This is a Neural Network Library created using the [Convolutional Model (CNN)](https://www.ibm.com/topics/convolutional-neural-networks).
 
 ## 📖 Usage
 
